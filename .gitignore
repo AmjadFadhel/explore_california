@@ -1,0 +1,20 @@
+#comment
+tempfile.txt
+
+# all compressed zip files
+*.zip
+
+# all compressed winzip files
+*.gz
+
+# ignore directory "log" and any file end with .log and or numbers
+log/*.log
+log/*.log.[0-9]
+
+# directory photoshop and videos
+assest/photoshop
+assest/videos
+
+#dont ignore these video files that start with tour_ and end with .mp4
+!assest/videos/tour_*.mp4
+
